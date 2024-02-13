@@ -1,0 +1,82 @@
+/* Body styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Light gray background */
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    background-color: #343a40; /* Dark gray background */
+    padding: 10px;
+    border-bottom: 2px solid #28a745; /* Green border */
+  }
+  
+  .navbar a {
+    color: #28a745; /* Green text */
+    text-decoration: none;
+    margin: 0 15px;
+    transition: color 0.3s ease; /* Smooth color transition */
+  }
+  
+  .navbar a:hover {
+    color: #ffc107; /* Yellow text on hover */
+  }
+  
+  /* Main content styles */
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #000000; /* White background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    border-radius: 10px; /* Rounded corners */
+    color: #ffffff; /* White Text */
+  }
+  
+  h1, h2, h3 {
+    color: #0fdb20; /* Green Text */
+  }
+  
+  p {
+    color: #0fdb20; /* Green Text */
+    line-height: 1.6; /* Increased line height for readability */
+  }
+  
+  /* Table styles */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  table, th, td {
+    border: 1px solid #dee2e6; /* Light gray borders */
+    padding: 10px;
+    color: #0fdb20; /* Green Text */
+
+  }
+  
+  th {
+    background-color: #28a745; /* Green header background */
+    color: #0fdb20; /* Green Text */
+  }
+  
+  /* List styles */
+  ul, ol {
+    color: #0fdb20; /* Green Text */
+    padding-left: 20px; /* Indentation for lists */
+  }
+  
+  /* Link styles */
+  a {
+    color: #007bff; /* Blue links */
+    text-decoration: none;
+    transition: color 0.3s ease; /* Smooth color transition */
+  }
+  
+  a:hover {
+    color: #6610f2; /* Purple links on hover */
+  }
+  
